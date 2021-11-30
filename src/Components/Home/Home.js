@@ -4,11 +4,13 @@ import Navigation from '../Navigation/Navigation';
 import Projects from '../Projects/Projects';
 import MyEducation from '../MyEducation/MyEducation';
 import ContactMe from '../ContactMe/ContactMe';
+import AllProjects from '../Projects/AllProjects';
 
 const Home = (props) => {
     return (
         <div>
           <Navigation />
+          <AllProjects />
            <div>
                <h1>Md Minhajul Islam</h1>
                <p>Junior Web developer</p>

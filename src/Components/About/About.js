@@ -13,7 +13,7 @@ const About = (props) => {
     <li className="list-group-item">Post: Junior Web Developer</li>
     <li className="list-group-item">Language: Bangla</li>
   </ul>
-   <a className="btn btn-warning w-25 mx-auto mt-2" href="www.google.com">Resume</a>
+   <a type="button" className="btn btn-warning w-25 mx-auto mt-2" href="www.google.com">Resume</a>
 </div>
 <div className="col row row-cols-md-2 row-cols-lg-2 row-cols-2">
   <div  className="col">
